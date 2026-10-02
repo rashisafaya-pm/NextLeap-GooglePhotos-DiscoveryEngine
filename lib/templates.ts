@@ -50,7 +50,8 @@ function tryStats(question: string): TemplateResult | null {
 // exactly what the ranked cluster list already is. Both share one answer
 // builder; only the trigger regex and the intro sentence differ.
 
-const TOP_RE = /\b(top|biggest|worst|most important|main|major|ranked?|highest[- ]priority)\b.*\b(problem|issue|pain ?point|complaint)s?\b|\b(top|rank(ed|ing)?)\b/i;
+const TOP_RE =
+  /\b(top|biggest|worst|most important|most common|most frequent|common|frequent|main|major|ranked?|highest[- ]priority)\b.*\b(problem|issue|pain ?point|complaint)s?\b|\b(top|rank(ed|ing)?)\b/i;
 
 // "what kinds/types of photos/problems do people struggle/have trouble
 // (finding|retrieving|searching for)" -- deliberately requires BOTH the
