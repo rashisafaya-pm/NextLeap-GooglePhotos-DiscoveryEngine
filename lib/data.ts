@@ -37,7 +37,7 @@ export type AtlasData = {
   clusters: Cluster[];
   episodes: Episode[];
   total: number;
-  out_scope_groups: { reason: string; label: string; n: number }[];
+  out_scope_groups: { id: string; label: string; n: number }[];
 };
 
 const data = rawData as AtlasData;
